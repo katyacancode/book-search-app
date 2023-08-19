@@ -1,0 +1,52 @@
+body {
+    background-color: #6B4F4F;
+}
+
+#heading, .input-field {
+    display:flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 60px;
+    color: #FFF3E4;
+    margin-bottom: 20px;
+}
+
+#search {
+    width: 50%;
+    padding: 10px;
+    background-color: #EED6C4;
+    font-family: 'Tangerine', cursive;
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    width: 200px;    
+    padding: 15px;     
+    margin: 10px;
+}
+
+a {
+    color: #FFF3E4;
+    text-decoration: none;
+    font-family: 'Tangerine', cursive;
+    font-size: 30px;   
+}
+
+@media all and (max-width:500px){
+    h1{
+        font-size: 35px;        
+    }
+}
+
+
